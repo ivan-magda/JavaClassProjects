@@ -51,6 +51,13 @@ public class Main {
                 System.out.println("Can't read line!");
             }
         }
+
+        try {
+            bufferedReader.close();
+        } catch (IOException exception) {
+            System.out.println("Can't close the file!");
+        }
+
             //Print all lines from the end to the beginning
         for (int i = arrayOfStrings.length - 1; i > 0; i--) {
             System.out.println(arrayOfStrings[i]);
