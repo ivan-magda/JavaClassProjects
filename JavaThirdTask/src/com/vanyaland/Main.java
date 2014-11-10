@@ -59,7 +59,7 @@ public class Main {
         }
 
             //Print all lines from the end to the beginning
-        for (int i = arrayOfStrings.length - 1; i > 0; i--) {
+        for (int i = arrayOfStrings.length - 1; i >= 0; i--) {
             System.out.println(arrayOfStrings[i]);
         }
     }
