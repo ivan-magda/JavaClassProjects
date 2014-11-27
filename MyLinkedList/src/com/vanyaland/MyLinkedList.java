@@ -3,7 +3,7 @@ package com.vanyaland;
 public class MyLinkedList {
 
         //ListElement class represent element of linked list
-    static class ListElement{
+    static class ListElement {
         String value;
         ListElement nextElement;
 

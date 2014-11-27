@@ -8,7 +8,6 @@ public class MyLinkedListIterator implements Iterator {
     public MyLinkedListIterator(MyLinkedList linkedList) {
         current = linkedList.firstElement;
     }
-
     @Override
     public boolean hasNext() {
         return current != null;
